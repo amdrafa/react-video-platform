@@ -1,6 +1,6 @@
 "use client";
 import { useState } from 'react';
-import test8 from './images/test8.jpg';
+import test8 from './images/logo.png';
 import test3 from './images/test3.jpg';
 import test2 from './images/test2.jpg';
 import test7 from './images/test7.jpg';
@@ -80,7 +80,7 @@ export default function App() {
             isOnline={false}
             name="Amanda Schutz"
             whatsappLink="https://api.whatsapp.com/send?phone=5547992479009&text=Oi,%20quero%20fazer%20uma%20chamada%20de%20v%C3%ADdeo%20com%20voc%C3%AA.%20Como%20posso%20fazer%20o%20pagamento?"
-            image={test3}
+            image={test8}
             price="R$29,00"
             city="São Paulo"
           />
