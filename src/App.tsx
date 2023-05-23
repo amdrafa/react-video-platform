@@ -72,7 +72,7 @@ export default function App() {
             isOnline={true}
             name="Larissa Silva"
             whatsappLink="https://api.whatsapp.com/send?phone=5547992479009&text=Oi,%20quero%20fazer%20uma%20chamada%20de%20v%C3%ADdeo%20com%20voc%C3%AA.%20Como%20posso%20fazer%20o%20pagamento?"
-            image={test8}
+            image="https://i.imgur.com/PWIV2js.jpeg"
             price="R$49,00"
             city="Florianópolis"
           />
