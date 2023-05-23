@@ -20,7 +20,7 @@ export default function App() {
   const [selectedFilterOption, setSelectedFilterOption] = useState("Mulheres")
 
   return (
-    <>
+    <div>
       <Header />
       <div className={`w-full bg-stone-900 my-4 p-4 space-x-4 overflow-x-auto whitespace-nowrap`}>
         <button
@@ -132,6 +132,6 @@ export default function App() {
         </div>
       )}
 
-    </>
+    </div>
   )
 }
