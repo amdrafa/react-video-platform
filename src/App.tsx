@@ -1,14 +1,5 @@
 "use client";
 import { useState } from 'react';
-import test8 from './images/logo.png';
-import test3 from './images/test3.jpg';
-import test2 from './images/test2.jpg';
-import test7 from './images/test7.jpg';
-import test6 from './images/test6.jpg';
-import test4 from './images/test4.jpg';
-import test5 from './images/test5.jpg';
-
-
 
 import './App.css';
 import Header from './header/header';
@@ -72,7 +63,7 @@ export default function App() {
             isOnline={true}
             name="Larissa Silva"
             whatsappLink="https://api.whatsapp.com/send?phone=5547992479009&text=Oi,%20quero%20fazer%20uma%20chamada%20de%20v%C3%ADdeo%20com%20voc%C3%AA.%20Como%20posso%20fazer%20o%20pagamento?"
-            image="https://i.imgur.com/PWIV2js.jpeg"
+            image="https://i.imgur.com/9T8bCjG.jpg"
             price="R$49,00"
             city="Florianópolis"
           />
@@ -80,7 +71,7 @@ export default function App() {
             isOnline={false}
             name="Amanda Schutz"
             whatsappLink="https://api.whatsapp.com/send?phone=5547992479009&text=Oi,%20quero%20fazer%20uma%20chamada%20de%20v%C3%ADdeo%20com%20voc%C3%AA.%20Como%20posso%20fazer%20o%20pagamento?"
-            image={test8}
+            image={"https://i.imgur.com/BPGioaJ.jpghttps://i.imgur.com/BPGioaJ.jpg"}
             price="R$29,00"
             city="São Paulo"
           />
@@ -88,7 +79,7 @@ export default function App() {
             isOnline={true}
             name="Julia Silva"
             whatsappLink="https://api.whatsapp.com/send?phone=5547992479009&text=Oi,%20quero%20fazer%20uma%20chamada%20de%20v%C3%ADdeo%20com%20voc%C3%AA.%20Como%20posso%20fazer%20o%20pagamento?"
-            image={test2}
+            image={"https://i.imgur.com/QcYqNk5.jpg"}
             price="R$49,00"
             city="Maringá"
           />
@@ -97,7 +88,7 @@ export default function App() {
             isOnline={true}
             name="Julia Silva"
             whatsappLink="https://api.whatsapp.com/send?phone=5547992479009&text=Oi,%20quero%20fazer%20uma%20chamada%20de%20v%C3%ADdeo%20com%20voc%C3%AA.%20Como%20posso%20fazer%20o%20pagamento?"
-            image={test7}
+            image={"https://i.imgur.com/o5iLIrX.jpg"}
             price="R$49,00"
             city="Porto Alegre"
           />
@@ -105,7 +96,7 @@ export default function App() {
             isOnline={true}
             name="Vanessa Lucrezia"
             whatsappLink="https://api.whatsapp.com/send?phone=5547992479009&text=Oi,%20quero%20fazer%20uma%20chamada%20de%20v%C3%ADdeo%20com%20voc%C3%AA.%20Como%20posso%20fazer%20o%20pagamento?"
-            image={test5}
+            image={"https://i.imgur.com/Mrrppi5.jpg"}
             price="R$49,00"
             city="Balneário"
           />
@@ -113,7 +104,7 @@ export default function App() {
             isOnline={false}
             name="Laisa Eduarda"
             whatsappLink="https://api.whatsapp.com/send?phone=5547992479009&text=Oi,%20quero%20fazer%20uma%20chamada%20de%20v%C3%ADdeo%20com%20voc%C3%AA.%20Como%20posso%20fazer%20o%20pagamento?"
-            image={test6}
+            image={"https://i.imgur.com/HSq106k.jpg"}
             price="R$29,00"
             city="Florianópolis"
           />
@@ -121,7 +112,7 @@ export default function App() {
             isOnline={true}
             name="Gigi Amaral"
             whatsappLink="https://api.whatsapp.com/send?phone=5547992479009&text=Oi,%20quero%20fazer%20uma%20chamada%20de%20v%C3%ADdeo%20com%20voc%C3%AA.%20Como%20posso%20fazer%20o%20pagamento?"
-            image={test4}
+            image={"https://i.imgur.com/kvsMCbn.jpg"}
             price="R$49,00"
             city="São Paulo"
           />
