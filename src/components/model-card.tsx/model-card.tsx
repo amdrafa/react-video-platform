@@ -34,7 +34,7 @@ export default function ModelCard({ isOnline, name, whatsappLink, image, price, 
                             </span>
                         </div>
                         <div className="relative">
-                            <img className="h-52 w-56" src={image} alt="model image" />
+                            <img className="h-60 w-80" src={image} alt="model image" />
                             <div className="absolute top-2 right-2">
                                 <div className="rounded-full bg-black bg-opacity-50 p-2">
                                     <BsFillSuitHeartFill />
@@ -59,7 +59,7 @@ export default function ModelCard({ isOnline, name, whatsappLink, image, price, 
                         </span>
                     </div>
                     <div className="relative">
-                        <img className="h-52 w-56" src={image} alt="model image" />
+                        <img className="h-60 w-80" src={image} alt="model image" />
                         <div className="absolute top-2 right-2">
                             <div className="rounded-full bg-black bg-opacity-50 p-2">
                                 <BsFillSuitHeartFill />
